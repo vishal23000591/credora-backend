@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001;
 
 // --- Middleware ---
 // Use cors with default settings for your frontend
-app.use(cors({ origin: "*", methods: ["GET","POST","PUT","DELETE","OPTIONS"], credentials: true }));
+app.use(cors({ origin: "https://reva-ai-authenticator-frontend.vercel.app", methods: ["GET","POST","PUT","DELETE","OPTIONS"], credentials: true }));
 
 
 // JSON parsing middleware
